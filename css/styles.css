@@ -6,7 +6,6 @@
 }
 
 .aboutme {
-  background-color: #fffffc;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -21,13 +20,19 @@
 }
 
 .contactme {
-  background-color: green;
-  height: 100vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-size: 2rem;
 }
 
 .nav_bar {
   background-color: #f2f2f2;
   box-shadow: 0px 0px 5px 10px rgba(94, 130, 147, 0.2);
+  font-size: 1.7rem;
 }
 
 .nav_item_link {
@@ -80,8 +85,9 @@
 }
 
 .section_title {
-  font-size: 3rem;
+  font-size: 4rem;
   color: brown;
+  text-decoration: underline;
 }
 
 .aboutme_span {
@@ -112,4 +118,25 @@
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+}
+
+.contactme_container_info {
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+  font-size: 3rem;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contactme_container_info a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.contactme_container_info a:hover {
+  border-bottom: 2px solid black;
 }
