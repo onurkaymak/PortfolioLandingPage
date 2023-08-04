@@ -24,18 +24,20 @@
 
 .nav_bar {
   background-color: #f2f2f2;
+  box-shadow: 0px 0px 5px 10px rgba(94, 130, 147, 0.2);
 }
 
 .nav_item_link {
+  margin: 10px;
   color: gray;
-  border-bottom: 2px solid transparent;
-  transition: all 0.5s;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
 }
 
 .nav_item_link:hover {
   color: black;
   transform: translateY(-2px);
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 .nav_logo {
@@ -46,6 +48,7 @@
   letter-spacing: 0.1em;
   text-decoration: none;
   color: gray;
+  margin: 10px;
   transition: all 0.3s;
 }
 
@@ -53,6 +56,7 @@
   color: black;
   box-shadow: 0px 1px 5px black;
   border-radius: 50px;
+  box-shadow: 0px 0px 5px 5px rgba(94, 130, 147, 0.1);
   transform: translateY(-1px);
 }
 
@@ -69,8 +73,25 @@
 .aboutme_img {
   width: 300px;
   height: 300px;
+  position: relative;
+}
+
+.aboutme_span {
+  background-color: rgba(94, 130, 147, 0.2);
+  height: 350px;
+  width: 350px;
+  border-radius: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutme_p {
   text-align: center;
+  width: 80%;
+}
+
+.aboutme_p a {
+  color: inherit;
 }
