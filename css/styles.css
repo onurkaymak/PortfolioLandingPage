@@ -1,1 +1,14 @@
+.aboutme {
+  background-color: yellow;
+  height: 100vh;
+}
 
+.projects {
+  background-color: blue;
+  height: 100vh;
+}
+
+.contactme {
+  background-color: green;
+  height: 100vh;
+}
