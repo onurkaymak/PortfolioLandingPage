@@ -9,6 +9,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  background-color: rgba(248, 239, 228, 0.5);
 }
 
 .projects {
@@ -17,6 +18,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  background-color: rgba(248, 239, 228, 0.5);
 }
 
 .contactme {
@@ -25,27 +27,31 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-
+  background-color: rgba(248, 239, 228, 0.5);
   font-size: 2rem;
 }
 
 .nav_bar {
-  background-color: #f2f2f2;
+  background-color: #3c3c3c;
   box-shadow: 0px 0px 5px 10px rgba(94, 130, 147, 0.2);
   font-size: 1.7rem;
 }
 
 .nav_item_link {
   margin: 10px;
-  color: gray;
+  color: #f5f5f5;
   border-bottom: 3px solid transparent;
   transition: all 0.3s;
 }
 
 .nav_item_link:hover {
-  color: black;
-  transform: translateY(-2px);
-  border-bottom: 3px solid black;
+  color: #ffff5c;
+  transform: translateY(-3px);
+  border-bottom: 3px solid #faff7f;
+}
+
+.nav_item_link:active {
+  transform: translateY(2px);
 }
 
 .nav_logo {
@@ -55,17 +61,20 @@
   font-weight: 600;
   letter-spacing: 0.1em;
   text-decoration: none;
-  color: gray;
+  color: #f5f5f5;
   margin: 10px;
   transition: all 0.3s;
 }
 
 .nav_logo:hover {
-  color: black;
-  box-shadow: 0px 1px 5px black;
+  color: #ffff5c;
   border-radius: 50px;
-  box-shadow: 0px 0px 5px 5px rgba(94, 130, 147, 0.1);
+  box-shadow: 0px 0px 5px 5px #ffff5c;
   transform: translateY(-1px);
+}
+
+.nav_logo:active {
+  transform: translateY(2px);
 }
 
 .aboutme_container {
@@ -86,14 +95,14 @@
 
 .section_title {
   font-size: 4rem;
-  color: brown;
+  color: #282120;
   text-decoration: underline;
 }
 
 .aboutme_span {
-  background-color: rgba(94, 130, 147, 0.2);
-  height: 350px;
-  width: 350px;
+  background-color: #fad02c;
+  height: 320px;
+  width: 320px;
   border-radius: 500px;
 
   display: flex;
@@ -108,6 +117,10 @@
 
 .aboutme_p a {
   color: inherit;
+}
+
+strong:hover {
+  background-color: #fad02c;
 }
 
 .aboutme_p_container {
