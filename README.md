@@ -20,6 +20,7 @@ _A personal project practice for the students who attend Epicodus._
 
 - _You can view this site live by GitHub Pages_
 - _Please click the provided link to view this practice site_
+  [Portfolio Landing Page Project](https://onurkaymak.github.io/PortfolioLandingPage)
 
 ## Known Bugs
 
