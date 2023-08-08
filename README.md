@@ -2,8 +2,6 @@
 
 #### By _**Onur Kaymak**_
 
-#### _Portfolio landing page_
-
 ## Technologies Used
 
 - _HTML5_
@@ -14,13 +12,21 @@
 
 ## Description
 
-_A personal project practice for the students who attend Epicodus._
+_A personal portfolio practice for Epicodus personal project assignment. [More information about Epicodus](https://www.epicodus.com)_
 
 ## Setup/Installation Requirements
 
-- _You can view this site live by GitHub Pages_
-- _Please click the provided link to view this practice site_
-  [Portfolio Landing Page Project](https://onurkaymak.github.io/PortfolioLandingPage)
+- _You have two option to view this project on your local machine or live by GitHub Pages_
+
+- _First Option_
+
+- _Clone this project from provided GitHub repository: [Repository Link](https://github.com/onurkaymak/PortfolioLandingPage)_
+- _Navigate to the project's folder and open index.html file in your browser_
+- _If you are using VS Code as code editor, simply go to the project folder and right-click index.html to run on VS Code Live Server feature._
+
+- _Second Option_
+
+  [Portfolio Landing Page Project Live Link](https://onurkaymak.github.io/PortfolioLandingPage)
 
 ## Known Bugs
 
