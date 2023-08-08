@@ -153,3 +153,12 @@ strong:hover {
 .contactme_container_info a:hover {
   border-bottom: 2px solid black;
 }
+
+h5 a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+h5 a:hover {
+  background-color: #fad02c;
+}
