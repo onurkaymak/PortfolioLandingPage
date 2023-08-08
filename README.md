@@ -16,17 +16,17 @@ _A personal portfolio practice for Epicodus personal project assignment. [More i
 
 ## Setup/Installation Requirements
 
-- _You have two option to view this project on your local machine or live by GitHub Pages_
+- _You have two option to view this project;_
 
-- _First Option_
+## First Option\_
 
 - _Clone this project from provided GitHub repository: [Repository Link](https://github.com/onurkaymak/PortfolioLandingPage)_
 - _Navigate to the project's folder and open index.html file in your browser_
 - _If you are using VS Code as code editor, simply go to the project folder and right-click index.html to run on VS Code Live Server feature._
 
-- _Second Option_
+## Second Option\_
 
-  [Portfolio Landing Page Project Live Link](https://onurkaymak.github.io/PortfolioLandingPage)
+[Portfolio Landing Page Project Live Link](https://onurkaymak.github.io/PortfolioLandingPage)
 
 ## Known Bugs
 
