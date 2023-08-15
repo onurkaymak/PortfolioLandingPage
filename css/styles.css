@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .aboutme {
@@ -90,7 +91,6 @@
 .aboutme_img {
   width: 300px;
   height: 300px;
-  position: relative;
 }
 
 .section_title {
@@ -135,12 +135,14 @@ strong:hover {
 
 .contactme_container_info {
   width: 50%;
-  height: 50%;
   border-radius: 20px;
   font-size: 3rem;
+  background-color: #ffff5c;
+}
 
-  display: flex;
-  justify-content: space-evenly;
+.contactme_container_info li {
+  float: left;
+  margin-left: 5rem;
 }
 
 .contactme_container_info a {
